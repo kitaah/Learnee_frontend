@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+html,
+body {
+  font-family: 'Roboto';
+  background-color: #17a2b8;
+}
+
+main {
+  padding: 10rem 0 5rem 0;
+}
+
+footer {
+  margin-top: 40rem;
+}
+
+.line-break::before {
+  content: "\a";
+  white-space: pre;
+}
+
+table {
+  vertical-align: middle !important;
+}
+
+.search-bar {
+  width: 25rem;
+}
+
+.card-learners {
+  text-align: left !important;
+}
+
+
