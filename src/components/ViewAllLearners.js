@@ -32,7 +32,7 @@ function ViewAllLearners() {
     
     return (
     <main>
-        <Container className="text-center">
+        <Container>
             <h1 className="mb-5"><FaUsers className="pe-3" size={65} />Liste des apprenants</h1>
             <Link className="btn btn-primary mb-3" to="/ajoutapprenant"><BsFillPlusCircleFill className="me-2" />Ajoute un apprenant</Link>
             <Form className="d-flex align-items-center justify-content-center align-middle my-3">

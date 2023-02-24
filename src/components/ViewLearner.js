@@ -35,7 +35,7 @@ function ViewLearner() {
     return (
     <main>
         <Container>
-            <h1 className="text-center mb-5"><FaUserAlt className="pe-3" size={60} />Informations du client</h1>
+            <h1 className="mb-5"><FaUserAlt className="pe-3" size={60} />Informations du client</h1>
             <Row>
                 <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow bg-dark">
                     <Card.Body>

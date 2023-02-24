@@ -48,7 +48,7 @@ function EditLearner() {
     return (
     <main>
         <Container>
-            <h1 className="text-center mb-5"><FaUserAlt className="pe-3" size={60} />Modifie un apprenant</h1>
+            <h1 className="mb-5"><FaUserAlt className="pe-3" size={60} />Modifie un apprenant</h1>
             <Row>
                 <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 bg-dark shadow">
                     <Form onSubmit={handleSubmit} className="text-light p-3">
