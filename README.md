@@ -6,7 +6,7 @@ Dans le cadre de la formation de développeur informatique, que je réalise au C
 ## Lien
 
 La partie front-end de l'application est accessible à partir du lien suivant:
-- [Back-end](https://github.com/kitaah/Learnee_backend)
+- [Front-end](https://github.com/kitaah/Learnee_backend)
 
 ## Fonctionnalités
 
