@@ -23,7 +23,7 @@ La partie front-end de l'application est accessible à partir du lien suivant:
 
 - **IDE:** IntelliJ IDEA
 - **Librairie**: React
-- **Base de données:** MariaDB
+- **SGBD:** MariaDB
 - **Manipulation d'API:** Postman
 - **Gestion de version**: Git
 
