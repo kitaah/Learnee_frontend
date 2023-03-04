@@ -11,25 +11,25 @@ import axios from 'axios';
 
 function ViewLearner() {
     useEffect(() => {
-    document.title = 'Information apprenant 👤';
-    loadLearner();
+        document.title = 'Information apprenant 👤';
+        loadLearner();
     }, []);
 
     const [learner, setLearner] = useState({
-    fname: "",
-    lname: "",
-    promotion: "",
-    address: "",
-    email: "",
-    mobile: "",
-    representative: "",
+        fname: "",
+        lname: "",
+        promotion: "",
+        address: "",
+        email: "",
+        mobile: "",
+        representative: "",
     });
 
     const { id } = useParams();
 
     const loadLearner = async () => {
-    const result = await axios.get(`http://localhost:8080/getlearner/${id}`);
-    setLearner(result.data);
+        const result = await axios.get(`http://localhost:8080/getlearner/${id}`);
+        setLearner(result.data);
     };
 
     return (

@@ -12,8 +12,8 @@ import Stack from 'react-bootstrap/Stack';
 function ViewAllLearners() {
     const [learners,setLearners] = useState([]);
     useEffect(() => {
-    document.title = 'Liste des apprenants 👤';
-    loadLearners();
+        document.title = 'Liste des apprenants 👤';
+        loadLearners();
     }, []);
 
     const[search, setSearch] = useState('');
@@ -21,13 +21,13 @@ function ViewAllLearners() {
     const { id } = useParams();
 
     const loadLearners = async() => {
-    const result = await axios.get("http://localhost:8080/getlearners");
-    setLearners(result.data);
+        const result = await axios.get("http://localhost:8080/getlearners");
+        setLearners(result.data);
     }
 
     const deleteLearner = async (id) => {
-    await axios.delete(`http://localhost:8080/deletelearner/${id}`);
-    loadLearners();
+        await axios.delete(`http://localhost:8080/deletelearner/${id}`);
+        loadLearners();
     };
     
     return (

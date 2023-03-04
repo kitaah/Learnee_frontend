@@ -10,8 +10,8 @@ import axios from "axios";
 
 function EditLearner() {
     useEffect(() => {
-    document.title = 'Modifier un apprenant 👤';
-    loadLearner();
+        document.title = 'Modifier un apprenant 👤';
+        loadLearner();
     }, []);
 
     let navigate = useNavigate();
