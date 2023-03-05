@@ -15,14 +15,13 @@ La partie front-end de l'application est accessible à partir du lien suivant:
 
 ## Langages
 
-- **Front-end:** HTML, CSS, JavaScript, SASS (avec librairie d'icônes React-icons, d'animation AOS et utilisation du framework CSS Bootstrap)
-- **Back-end:** Java (avec utilisation du framework Spring Boot)
+- **Front-end:** HTML, CSS, JavaScript, SASS (avec utilisation de la librairie JavaScript React et du framework CSS Bootstrap)
+- **Back-end:** Java (avec utilisation du framework Spring Boot pour la mise en place d'une API REST)
 
 
 ## Outils
 
 - **IDE:** IntelliJ IDEA
-- **Librairie**: React
 - **SGBD:** MariaDB
 - **Manipulation d'API:** Postman
 - **Gestion de version**: Git
